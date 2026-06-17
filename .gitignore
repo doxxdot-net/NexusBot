@@ -1,7 +1,2 @@
-.vscode/
-.git/
-.dccache
-
 node_modules/
-log/
-package-lock.json
+.env
