@@ -1,33 +1,4 @@
-{
-    "owners": [],
-    "database": false,
-    "default": {
-        "server": {
-            "prefix": "!",
-            "language": "en",
-            "enabled_events": [
-                "messageCreate",
-                "interactionCreate"
-            ],
-            "enabled_managers": [
-                "verify",
-                "ticket"
-            ],
-            "groups": {
-
-            }
-        },
-        "manager": {
-            "verify": {
-                "settings": {
-                    "role_id": ""
-                }
-            },
-            "ticket": {
-                "settings": {
-                    "category_id": ""
-                }
-            }
-        }
-    }
-}
+module.exports = {
+  prefix: "!",
+  logChannelId: null // set later
+};
